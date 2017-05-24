@@ -36,6 +36,7 @@ def main():
     pygame.init()
     screen = desenharCampo()
     distribuirPecas()
+    print("teste")
 
     while True:
         pygame.mouse.get_pressed()
